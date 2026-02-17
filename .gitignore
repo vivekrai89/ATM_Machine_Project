@@ -1,29 +1,24 @@
 # ========================
-# IntelliJ IDEA
+# Java / IntelliJ / IDE
 # ========================
+
+# Compiled Java class files
+*.class
+
+# IntelliJ IDEA project files
 .idea/
-*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
-# ========================
-# Eclipse
-# ========================
-.apt_generated
+# VS Code settings (optional)
+.vscode/
+
+# Eclipse project files (optional)
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-sts4-cache
+.settings/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-# ========================
-# NetBeans
-# ========================
+# NetBeans project files (optional)
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -31,35 +26,18 @@ bin/
 /.nb-gradle/
 
 # ========================
-# VS Code
+# Operating System
 # ========================
-.vscode/
 
-# ========================
-# Mac OS
-# ========================
+# macOS hidden files
 .DS_Store
 
-# ========================
-# Java compiled class files
-# ========================
-*.class
+# Windows hidden files
+Thumbs.db
 
 # ========================
-# Log files
+# Logs
 # ========================
 *.log
 
-# ========================
-# Build folders
-# ========================
-build/
-target/
-
-# ========================
-# IntelliJ library and caches
-# ========================
-*.iws
-.idea_modules/
-.misc.xml
 
