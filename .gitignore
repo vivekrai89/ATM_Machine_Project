@@ -11,3 +11,7 @@ out/
 # OS
 .DS_Store
 Thumbs.db
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
